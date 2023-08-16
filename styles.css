@@ -1,0 +1,96 @@
+/* Reset de estilos para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos básicos para o corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização para o contêiner principal */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilização para o título */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilização para os rótulos */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Estilização para os campos de entrada de texto */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilização para o botão de submit */
+button[type="submit"] {
+    background-color: hsl(180, 61%, 41%);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: hsl(180, 61%, 51%);
+}
+
+/* Estilização para mensagens de sucesso e erro */
+.success-message,
+.error-message {
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.success-message {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.error-message {
+    background-color: #f44336;
+    color: #fff;
+}
+
+/* Estilização para o gráfico */
+.chart-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
